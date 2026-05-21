@@ -1,0 +1,79 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^u--(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
+      "^up-(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
+      "^u-([^-].*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {}
+    },
+    {
+      "path": "pages/chat/chat",
+      "style": {}
+    },
+    {
+      "path": "pages/consult/consult",
+      "style": {}
+    },
+    {
+      "path": "pages/shop/shop",
+      "style": {}
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": {}
+    }
+  ],
+
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "童心沐光",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#FEFCF8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#FF9A6C",
+    "backgroundColor": "#FFFFFF",
+    "fontSize": "15px",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/index/home.png",
+        "selectedIconPath": "/static/index/home (1).png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "AI成长",
+        "iconPath": "/static/chat/sparkles.png",
+        "selectedIconPath": "/static/chat/sparkles (1).png"
+      },
+      {
+        "pagePath": "pages/consult/consult",
+        "text": "咨询",
+        "iconPath": "/static/consult/message_fill.png",
+        "selectedIconPath": "/static/consult/message_fill (1).png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "商城",
+        "iconPath": "/static/shop/shop.png",
+        "selectedIconPath": "/static/shop/shop (1).png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/static/mine/user.png",
+        "selectedIconPath": "/static/mine/user (1).png"
+      }
+    ]
+  },
+  "uniIdRouter": {}
+}
